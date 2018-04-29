@@ -23,8 +23,10 @@ exports.microphone_info = function(req, res) {
 		}
 	};
 	
-	if(!microphone)
+	if(!microphone) {
 		res.send("Page not found!");
+		return;
+	}
 	
 	res.render('microphone_info', {
 		site_title : site_title,
