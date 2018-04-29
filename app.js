@@ -2,13 +2,16 @@ var express = require('express');
 
 var app = express();
 
-app.get('/', function(req, res) {
-	res.send("Server response on the home page.");
-});
+app.set('view engine', 'ejs');
 
-app.get('*', function(req, res) {
-	res.send("Page not found!");
-});
+var routes = require('./routes');
+
+var path = require('path');
+app.use(express.static.join(__dirname, 'public'));
+
+// routes
+app.get('/', routes.home);
+app.get('*', routes.notFound);
 
 app.listen(3000, function() {
 	console.log("The applictaion is running on localhost:3000");
