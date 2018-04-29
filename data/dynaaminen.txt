@@ -1,0 +1,3 @@
+Dynaaminen mikrofoni
+
+Dynaamisen mikrofonin toimintaperiaate on vastakkainen dynaamiselle kaiuttimelle. Yksinkertaisimmillaan dynaaminen mikrofoni sisältää neljä osaa: kalvon, sähköä johtavan kelan, magneetin napakappaleineen, sekä johtimet. Kela on kiinnitetty kalvoon, joka kytkeytyy runkoon joustavilla ripustuksilla, samaan tapaan kuin kaiuttimen elementti. Ilman liike saa kalvon värähtelemään. Tällöin myös kalvoon kiinnitetty kela liikkuu magneettikentässä, ja siihen indusoituu vaihtojännite. Johtimet kuljettavat tämän heikon sähköisen signaalin vahvistimeen, joka vahvistaa signaalin esitys- tai tallennuskelpoiseksi.

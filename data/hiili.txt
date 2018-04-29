@@ -1,0 +1,3 @@
+Hiilimikrofoni
+
+Hiilimikrofoni, jota käytettiin puhelimen ja radion alkuaikoina, sisälsi kahden metallilevyn väliin puristettuja hiilirakeita. Äänen aiheuttamat painevaihtelut välittyivät hiilirakeisiin, joiden välinen resistanssi vaihteli paineen mukana. Jos metallilevyihin kytkettiin ulkoinen tasajännite, mikrofonin läpi kulki sähkövirta, jonka voimakkuus seurasi resistanssin muutoksia Ohmin lain mukaisesti. Tämä virta voitiin yksinkertaisimmillaan syöttää suoraan kovaääniseen, joka toisti värähtelyt äänenä.

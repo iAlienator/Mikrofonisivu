@@ -1,0 +1,2 @@
+Nauhamikrofoni
+Nauhamikrofonit ovat tavallaan dynaamisia mikrofoneja, sillä erotuksella, että niiden kalvo ja kela ovat yksi sähköä johtava nauha, joka on sijoitettu magneettien väliin. Muutoin nauhamikrofoni toimii periaatteessa samalla tavoin kuin dynaaminen mikrofoni.
