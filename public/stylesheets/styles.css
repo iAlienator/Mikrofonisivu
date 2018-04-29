@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 *, html {
 	font-family: "Source Sans Pro";
 	margin: auto;
 	color: #444;
-}
-body {
-	background-color: #f9eedb;
+	position: relative;
 }
 
-p {
-	font-size: 19px;	
+body {
+	background-color: #f9eedb;
+	margin-bottom: 20px;
+}
+
+p, a {
+	font-size: 18px;	
 	font-weight: 300;
 	text-align: justify;
 }
@@ -21,6 +25,16 @@ h1 {
 	font-family: "Poiret One";
 	text-align: center;
 	padding-bottom: 10px;
+}
+
+h2 {
+	font-family: "Comfortaa";
+	font-weight: 300;
+}
+
+ul { 
+	display: table; 
+	margin: 0 auto;
 }
 
 #poster {
@@ -34,36 +48,55 @@ h1 {
 	position: relative;
 }
 
-#poster #title {
+#poster #site-title {
 	font-family: "Oleo Script";
-	font-size: 80px;
-	color: white;
+	font-size: 70px;
+	color: black;
 	position: absolute;
 	bottom: 0;
-	margin: 0px;
+	margin: 0;
+	padding: 5px 30px;
 	left: 50%;
 	transform: translateX(-50%);
+	background-color: #f9eedb;
 }
 
 #content {
 	width: 720px;
-	margin: auto;
-	position: relative;
+	height: auto;
 }
 
 #about {
-	border: 1px solid #444;
+	border: 0px solid #444;
 	padding: 20px;
 	margin: 30px 0px;
 }
 
-.img-microphone {
-	width: 650px;
+#links {
+	margin: auto;
 }
 
+.img-microphone {
+	width: 50%;
+	display: block;
+    margin: 0 auto;
+	padding-top: 50px;
+}
+
+.microphone-name {
+	text-align: center;
+}
 
 footer {
-	
+	position: fixed;
+	bottom: 0;
+    width: 100%;
+	height: auto;
+	background-color: #d1cdc6;
+}
+
+footer p{
 	font-size: 17px;
 	font-style: italic;
+    text-align: center;
 }

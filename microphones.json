@@ -1,20 +1,24 @@
 {
 	"microphones": [{
+		"url" : "kondensaattori",
 		"name" : "Kondensaattorimikrofoni",
 		"text" : "Kondensaattorimikrofonin toimintaperiaate on monimutkaisempi kuin dynaamisen mikrofonin. Kondensaattorimikrofonissa on dynaamisen mikrofonin kalvon ja kelan sijasta niin sanottu kondensaattori, joka koostuu ohuen ohuesta metallisesta kalvosta, joka vastaanottaa ääniaallot, sekä rei'itetystä elektrodista. Kondensaattoriin synnytetään tasajännite joko ulkopuolisella jännitelähteellä omaa johdinta pitkin tai käytetään hyväksi phantom-jännitettä (engl. phantom power ), josta jännitemuuntimen avulla tehdään tarvittava polarointijännite. Mittauskäyttöön tarkoitetuissa mikrofoneissa 200 V jännite on yleinen. Kun äänenpaine saa metallikalvon liikkumaan kauemmas ja lähemmäs elektrodista, kondensaattorin kapasitanssi ja sitä kautta sähkövaraus muuttuu. Tämä muutos tuottaa heikon signaalin, joka on liian pieni, jotta se voitaisiin sellaisenaan käyttää. Sen takia mikrofonissa itsessään − tai sitä hyvin lähellä signaalitiellä – täytyy olla esivahvistin, joka vahvistaa signaalia. Kondensaattorimikrofoni on mikrofoneista herkin ja poimii suurimmat ja pienimmät taajuudet melko vaivattomasti. Äänimittauksissa kondensaattorimikrofoni on suosittu, koska sillä on hyvin tasainen taajuusvaste. Suurikalvoiset kondensaattorimikrofonit ovat kaikkein herkimpiä, mutta toisaalta ne eivät kestä yhtä suuria äänenpaineita kuin pienemmät ilman pysyviä herkkyyden muutoksia.",
 		"image" : "condenser_mic.jpg"
 	},
 	{
+		"url" : "nauha",
 		"name" : "Nauhamikrofoni",
 		"text" : "Nauhamikrofonit ovat tavallaan dynaamisia mikrofoneja, sillä erotuksella, että niiden kalvo ja kela ovat yksi sähköä johtava nauha, joka on sijoitettu magneettien väliin. Muutoin nauhamikrofoni toimii periaatteessa samalla tavoin kuin dynaaminen mikrofoni.",
 		"image" : "ribbonmic.jpg"
 	},
 	{
+		"url" : "hiili",
 		"name" : "Hiilimikrofoni",
 		"text" : "Hiilimikrofoni, jota käytettiin puhelimen ja radion alkuaikoina, sisälsi kahden metallilevyn väliin puristettuja hiilirakeita. Äänen aiheuttamat painevaihtelut välittyivät hiilirakeisiin, joiden välinen resistanssi vaihteli paineen mukana. Jos metallilevyihin kytkettiin ulkoinen tasajännite, mikrofonin läpi kulki sähkövirta, jonka voimakkuus seurasi resistanssin muutoksia Ohmin lain mukaisesti. Tämä virta voitiin yksinkertaisimmillaan syöttää suoraan kovaääniseen, joka toisti värähtelyt äänenä.",
 		"image" : "carbonmic.jpg"
 	},
 	{
+		"url" : "dynaaminen",
 		"name" : "Dynaaminen mikrofoni",
 		"text" : "Dynaamisen mikrofonin toimintaperiaate on vastakkainen dynaamiselle kaiuttimelle. Yksinkertaisimmillaan dynaaminen mikrofoni sisältää neljä osaa: kalvon, sähköä johtavan kelan, magneetin napakappaleineen, sekä johtimet. Kela on kiinnitetty kalvoon, joka kytkeytyy runkoon joustavilla ripustuksilla, samaan tapaan kuin kaiuttimen elementti. Ilman liike saa kalvon värähtelemään. Tällöin myös kalvoon kiinnitetty kela liikkuu magneettikentässä, ja siihen indusoituu vaihtojännite. Johtimet kuljettavat tämän heikon sähköisen signaalin vahvistimeen, joka vahvistaa signaalin esitys- tai tallennuskelpoiseksi.",
 		"image" : "dynamicmic.jpg"

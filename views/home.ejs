@@ -5,17 +5,24 @@
 </head>
 <body>
 	<div id="poster">
-		<div id="title"><%= title %></div>
+		<div id="site-title"><%= site_title %></div>
 	</div>
 	<div id="content">
-	<div id="about">
-	<h1>Yleistä</h1>
-	<p>Mikrofoni on sähköakustinen muunnin, joka muuntaa äänivärähtelyn vastaavaksi sähköiseksi värähtelyksi. Mikrofoneja käytetään yleisimmin musiikin ja puheen muuttamiseen sähköiseen muotoon vahvistusta tai tallennusta varten. Mikrofoni on nykyaikaisen äänentallennus ja -toistotarpeiston vanhin väline.</p>
-	</div>
-	<% for (var i = 0; i < microphones.length; i++) { %>
-	<h1><%= microphones[i].name %><h1>
-	<img src="/images/<%= microphones[i].image %>" class="img-microphone">
-	<% } %>	
+		<div id="about">
+			<h1>Yleistä</h1>
+			<p>Mikrofoni on sähköakustinen muunnin, joka muuntaa äänivärähtelyn vastaavaksi sähköiseksi värähtelyksi. Mikrofoneja käytetään yleisimmin musiikin ja puheen muuttamiseen sähköiseen muotoon vahvistusta tai tallennusta varten. Mikrofoni on nykyaikaisen äänentallennus ja -toistotarpeiston vanhin väline.</p>
+		</div>
+		<div id="links">
+		<h1>Mikrofonityypit</h1>
+			<ul>
+			<% for (var i = 0; i < microphones.length; i++) { %>
+				<li>
+					<a href="/microphones/<%= microphones[i].url %>" class="microphone-name"><%= microphones[i].name %></a>
+				</li>
+			<!--<img src="/images/<%= microphones[i].image %>" class="img-microphone">-->
+			<% } %>
+			</ul>
+		</div>
 	</div>
 	<% include partials/scripts.ejs %>
 	<footer>

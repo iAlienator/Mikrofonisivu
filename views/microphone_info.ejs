@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<% include partials/head.ejs %>
+</head>
+<body>
+	<div id="poster">
+		<div id="site-title"><%= site_title %></div>
+	</div>
+	<div id="content">
+		<img src="/images/<%= image %>" class="img-microphone">
+		<div id="about">
+			<h1><%= name %></h1>
+			<p><%= text %></p>
+		</div>
+	</div>
+	<% include partials/scripts.ejs %>
+	<footer>
+		<% include partials/footer %>
+	</footer>
+</body>
+</html>

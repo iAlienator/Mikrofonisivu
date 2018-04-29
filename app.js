@@ -11,6 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
 app.get('/', routes.home);
+app.get('/microphones/:microphone_name?', routes.microphone_info);
 app.get('*', routes.notFound);
 
 app.listen(3000, function() {
