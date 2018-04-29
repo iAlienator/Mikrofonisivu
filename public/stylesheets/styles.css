@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 *, html {
 	font-family: "Source Sans Pro";
 	margin: auto;
+	color: #444;
 }
 body {
-	background-color: #FFE4B5;
+	background-color: #f9eedb;
 }
 
 p {
 	font-size: 19px;	
 	font-weight: 300;
+	text-align: justify;
 }
-	
+
+h1 {
+	font-family: "Poiret One";
+	text-align: center;
+	padding-bottom: 10px;
+}
+
 #poster {
 	width: 100%;
+	min-width: 720px;
 	height: 500px;
 	background-image: url('../images/poster.jpg');
 	background-repeat: no-repeat;
@@ -26,7 +36,7 @@ p {
 
 #poster #title {
 	font-family: "Oleo Script";
-	font-size: 69px;
+	font-size: 80px;
 	color: white;
 	position: absolute;
 	bottom: 0;
@@ -36,16 +46,24 @@ p {
 }
 
 #content {
-	width: 650px;
+	width: 720px;
 	margin: auto;
+	position: relative;
 }
+
+#about {
+	border: 1px solid #444;
+	padding: 20px;
+	margin: 30px 0px;
+}
+
+.img-microphone {
+	width: 650px;
+}
+
 
 footer {
 	
 	font-size: 17px;
 	font-style: italic;
-}
-
-.img-microphone {
-	width: 650px;
 }
