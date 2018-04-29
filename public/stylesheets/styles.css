@@ -1,7 +1,29 @@
-#poster{
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+* {
+	
+	font-family: "Roboto";
+	}
+	body{
+	margin: auto;
+	width: 650px;
+}
+	#title{
+		font-family: "Black Han Sans";
+	}
+	#poster{
 	width: 100%;
 	height: 500px;
 	background-image: url('../images/etusivu.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+footer{
+	
+	font-size: 17px;
+	font-style: italic;
+}
+.img-microphone{
+	width: 650px;
 }
