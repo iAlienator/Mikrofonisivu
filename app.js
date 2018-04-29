@@ -6,6 +6,10 @@ app.get('/', function(req, res) {
 	res.send("Server response on the home page.");
 });
 
+app.get('*', function(req, res) {
+	res.send("Page not found!");
+});
+
 app.listen(3000, function() {
 	console.log("The applictaion is running on localhost:3000");
 });
