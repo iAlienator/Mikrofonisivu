@@ -1,0 +1,19 @@
+{
+  "name": "mikrofonisivu",
+  "version": "1.0.0",
+  "description": "Informative page about microphones.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAlienator/Mikrofonisivu.git"
+  },
+  "author": "Joonas Muukkonen, Nico Mahkonen, Ville Nikander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAlienator/Mikrofonisivu/issues"
+  },
+  "homepage": "https://github.com/iAlienator/Mikrofonisivu#readme"
+}
