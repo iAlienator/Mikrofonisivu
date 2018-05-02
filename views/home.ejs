@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-	<% include partials/head.ejs %>
+	<%- include("partials/head.ejs", {name: name}); %>
 </head>
 <body>
 	<%- include("partials/header.ejs", {microphones: microphones}); %>

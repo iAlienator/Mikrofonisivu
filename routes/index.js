@@ -7,6 +7,7 @@ exports.home = function(req, res) {
 	
 	res.render('home', {
 		site_title : site_title,
+		name : "Etusivu",
 		microphones : microphones
 	});
 };
