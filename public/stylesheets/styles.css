@@ -41,12 +41,19 @@ ul {
 	width: 100%;
 	min-width: 720px;
 	height: 500px;
-	background-image: url('../images/poster.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	position: relative;
 }
+
+.poster-title {
+		display: none;
+}
+
+
+
+
 
 #poster #site-title {
 	font-family: "Oleo Script";
