@@ -5,9 +5,7 @@
 </head>
 <body>
 	<%- include("partials/header.ejs", {microphones: microphones}); %>
-	<div id="poster">
-		<div id="site-title"><%= site_title %></div>
-	</div>
+	<%- include("partials/poster.ejs", {site_title: site_title}); %>
 	<div id="content">
 		<img src="/images/<%= image %>" class="img-microphone">
 		<div id="about">

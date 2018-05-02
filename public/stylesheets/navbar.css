@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
 #navbar {
 	display: flex;
+	position: absolute;
+	z-index: 999;
+	right: 0;
 }
 
-.navbar-link {
-
+#navbar p, #navbar a{
+	font-family: "Arimo";
+	font-size: 13px;
+	font-weight: light;
+	color: #f9eedb;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 5px 10px;
 }
