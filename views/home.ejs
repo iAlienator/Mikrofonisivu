@@ -4,7 +4,7 @@
 	<% include partials/head.ejs %>
 </head>
 <body>
-	<% include partials/header.ejs %>
+	<%- include("partials/header.ejs", {microphones: microphones}); %>
 	<div id="poster">
 		<div id="site-title"><%= site_title %></div>
 	</div>
@@ -18,9 +18,8 @@
 			<ul>
 			<% for (var i = 0; i < microphones.length; i++) { %>
 				<li>
-					<a href="/microphones/<%= microphones[i].url %>" class="microphone-name"><%= microphones[i].name %></a>
+					<a href="/<%= microphones[i].url %>" class="microphone-name"><%= microphones[i].name %></a>
 				</li>
-			<!--<img src="/images/<%= microphones[i].image %>" class="img-microphone">-->
 			<% } %>
 			</ul>
 		</div>

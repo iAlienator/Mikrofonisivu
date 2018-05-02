@@ -32,7 +32,8 @@ exports.microphone_info = function(req, res) {
 		site_title : site_title,
 		name : microphone.name,
 		text : microphone.text,
-		image : microphone.image
+		image : microphone.image,
+		microphones : microphones
 	});
 };
 

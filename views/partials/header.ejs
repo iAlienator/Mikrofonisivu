@@ -1,5 +1,7 @@
 <header>
 	<div id="navbar">
-		this is the navigation bar
+		<% for (var i = 0; i < microphones.length; i++) { %>
+			<div><a href="/<%= microphones[i].url %>" class="navbar-link"><%= microphones[i].name %></a></div>
+		<% } %>
 	</div>
 </header>

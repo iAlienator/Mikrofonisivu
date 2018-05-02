@@ -4,7 +4,7 @@
 	<% include partials/head.ejs %>
 </head>
 <body>
-	<% include partials/header.ejs %>
+	<%- include("partials/header.ejs", {microphones: microphones}); %>
 	<div id="poster">
 		<div id="site-title"><%= site_title %></div>
 	</div>
