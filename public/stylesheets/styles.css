@@ -41,18 +41,15 @@ ul {
 	width: 100%;
 	min-width: 720px;
 	height: 500px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	position: relative;
 }
 
-.poster-title {
-		display: none;
+.poster-image {
+	width: 100%;
+	display: none;
+	max-height:100%;
+	max-width:100%;
 }
-
-
-
 
 
 #poster #site-title {
